@@ -1,0 +1,44 @@
+.regularEntries tr:nth-child(2n){
+    background-color: rgba(138, 138, 138, 0.266) !important;
+}
+.regularEntries tr:last-child{
+    background-color: rgba(255, 0, 0, 0.392) !important;
+}
+
+
+.chosen a{
+    width:fit-content !important;
+    font-weight: bold !important;
+    background-color: rebeccapurple;
+    padding: 4px 10px   !important;
+  
+}
+.chosen a{
+    
+    color: white !important;
+}
+
+
+td:has(img[alt="ხელფასიანი"]) a{ 
+    background-color: rgba(108, 229, 108, 0.38);
+    padding: 4px 10px   !important;
+    width:fit-content !important;
+}
+td:has(img[alt="ხელფასიანი"])::before{
+    content: "> ";
+    width: fit-content;
+    display: inline-block;
+    padding: 2px 5px;
+    background-color:lime ;
+}
+
+.vipEntries + div + div,.vipEntries + div{
+    display: none !important;
+}
+
+/* Default light mode styles */
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }

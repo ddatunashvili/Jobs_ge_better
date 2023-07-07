@@ -1,0 +1,37 @@
+{
+    "name": "Hr ge უკეთესი გავხადეთ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "რავიცი აბა",
+    "icons":{
+        "16": "src/hiring16.png",
+        "32": "src/hiring32.png",
+        "48": "src/hiring48.png",
+        "128": "src/hiring128.png"
+    },
+    "action": {
+        "default_title": "Hr ge უკეთესი გავხადეთ",
+        "default_icon": {
+            "16": "src/hiring16.png",
+            "32": "src/hiring32.png",
+            "48": "src/hiring48.png",
+            "128": "src/hiring128.png"
+        }
+        
+        
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.jobs.ge/"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
