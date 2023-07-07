@@ -8,4 +8,4 @@
 ან  გადადით ლინკზე chrome://extensions/
 
 * ჩართეთ developer mode<br>
-* ჩააგდეთ ფოლდერი UG_SUCKS და enjoy
+* ჩააგდეთ ფოლდერი  და enjoy
